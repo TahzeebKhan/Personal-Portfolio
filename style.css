@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+#nav {
+  display: flex;
+  justify-content: end;
+}
+
+#right h1 {
+  background: linear-gradient(to right, #f32121, #1808ff, #23cfcf, #47ee44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 38px;
+  margin-top: -30px;
+  margin-left: 15px;
+}
+#right img {
+  margin: 20px;
+  margin-left: 40px;
+  width: 15%;
+}
+#left li {
+  margin: 20px 30px 20px 30px;
+  font-size: 25px;
+}
+#left ul a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+}
+
+#left ul a:hover {
+  border-bottom: 3px solid rgba(255, 0, 0, 0.563);
+  border-top: 3px solid rgba(255, 0, 0, 0.563);
+  opacity: 0.9;
+  transition: all 0.4s ease-out;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+}
+
+#center {
+  display: flex;
+  position: relative;
+}
+#about {
+  margin: 100px 20px 20px 120px;
+  width: 65%;
+}
+
+#about h1 {
+  color: white;
+  font-size: 60px;
+  margin: 10px;
+}
+#name {
+  color: rgba(246, 32, 32, 0.995);
+}
+
+#about h4 {
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+}
+
+#myimg img {
+  margin-left: -40px;
+  width: 230px;
+}
+
+#myimg img:hover {
+  transition: all 0.4s ease-out;
+  transform: scale(1.05);
+}
+
+#outline {
+  margin-top: -145%;
+  margin-left: -11%;
+  width: 122%;
+  height: 58.5%;
+  border: 2px solid white;
+}
+
+#resume {
+  margin: 10px 0px 0px 180px;
+  background-color: #000000;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 8px 10px 8px 10px;
+  border: 2px solid rgba(255, 0, 0, 0.995);
+  border-radius: 6px;
+  opacity: 0.5;
+}
+
+#github {
+  margin: 10px 0px 0px 90px;
+  background-color: #000000;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 8px 10px 8px 10px;
+  border: 2px solid rgba(255, 0, 0, 0.995);
+  border-radius: 6px;
+  opacity: 0.5;
+}
+
+#resume:hover {
+  opacity: 1.5;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+  box-shadow: 3px 2px 6px red;
+}
+
+#github:hover {
+  opacity: 1.5;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+  box-shadow: 3px 2px 6px red;
+}
